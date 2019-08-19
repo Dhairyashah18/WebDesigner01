@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>External</title>
+</head>
+<body>
+<input type="button" value="Change Color" name="my1" id="my1" />
+
+<script type="text/javascript">
+ window.onload= function() {
+ 	document.getElementById("my1").onmouseover = function()
+ 	{
+ 		document.body.style.backgroundColor ="blue";
+ 	}
+ 	document.getElementById("my1").onmouseout = function()
+ 	{
+ 		document.body.style.backgroundColor ="green";
+ 	}
+
+ }
+
+</script>
+
+</body>
+</html>
